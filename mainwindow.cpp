@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    cout<<iniController->getInfo();
+    cout<<"this is content"<<iniController->getInfo()<<endl;
 }
 
 MainWindow::~MainWindow()

@@ -6,7 +6,7 @@ IniController::IniController(string path, string fileName)
 {
 
     file.open(path+fileName, ios::out | ios::in);
-    cout<<path+fileName;
+    cout<<path+fileName<<endl;
 }
 
 string IniController::getInfo()

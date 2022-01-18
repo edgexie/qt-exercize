@@ -22,6 +22,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    IniController *iniController = new IniController("../config/","dev-config.ini");
+    IniController *iniController = new IniController("./config/","dev-config.ini");
 };
 #endif // MAINWINDOW_H
